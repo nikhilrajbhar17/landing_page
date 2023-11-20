@@ -1,0 +1,25 @@
+.main {
+  height: 90vh;
+  width: 100vw;
+}
+.bg-img {
+  height: 90vh;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background-image: url("/res/test.jpg");
+}
+.first-box {
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.search-box-input {
+  margin-left: 45vw;
+  display: flex;
+
+}
