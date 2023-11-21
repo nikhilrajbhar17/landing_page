@@ -1,6 +1,8 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
+  background-color: #C69DD5;
+  border-color: black;
 }
 .header {
   background-color: #94aec7
@@ -13,10 +15,22 @@
 }
 .nav-bar-ul {
   list-style: none;
+  padding-right: 40px;
 }
 .nav-bar-ul li {
   display: inline-block;
   margin-right: 10px;
+}
+.nav-bar-ul a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+ 
+}
+ .nav-bar-ul li  :hover{
+  background-color: yellow;
+  color: black;
+border-radius: 10px 10px 10px 10px;
 }
 .img-logo {
   border-radius: 50%;

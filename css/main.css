@@ -13,13 +13,138 @@
 
 body {
   background-image: url("/res/test.jpg");
+  background-size: cover;
+  width: 100vw;
 }
 .first-box {
   margin-left: 20px;
   margin-top: 60px;
+  border-radius: 50px;
 }
 .search-box-input {
   margin-left: 45vw;
   display: flex;
+  width: 100vw;
+}
+.main-div-two {
+  margin-top: 10vh;
+}
+.main-font {
+  color: antiquewhite;
+  font-family: "Anton", sans-serif;
+}
+.search-box-input {
+  margin-left: 45vw;
+  display: flex;
+}
+.search-box {
+}
 
+/* styling navlist */
+#navlist {
+  background-color: #0074d9;
+  position: absolute;
+  width: 100%;
+  border-radius: 50px;
+}
+
+/* styling navlist anchor element */
+#navlist a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.navlist-right {
+  float: right;
+}
+
+/* hover effect of navlist anchor element */
+#navlist a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* styling search bar */
+.search input[type="text"] {
+  width: 500px;
+  height: 45px;
+  border-radius: 25px 25px 25px 25px;
+  border: none;
+  background: #e8ecf0 url("/search.svg") no-repeat 470px;
+}
+
+.search {
+  float: none;
+  margin: 7px;
+}
+
+.search button {
+  background-color: #e8ecf0;
+  color: #f2f2f2;
+  float: right;
+  padding-left: -50px;
+  /* padding: 5px 10px; */
+  margin-right: 16px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 45px;
+  height: 46px;
+}
+.search input[type="text"]::placeholder {
+  /* Firefox, Chrome, Opera */
+  text-align: center;
+  font-size: large;
+  padding-left: 20px;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  background-color: #b99bd8;
+  border-top: #ffddeb;
+}
+
+.destinations {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20vh;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: aliceblue;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.dest-discription {
+  width: 259px;
 }

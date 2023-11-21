@@ -2,6 +2,18 @@
 <html lang="en">
 
 <head>
+    <!-- 2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- 1 -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/landingPage.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=3d">
     <link rel="stylesheet" href="/css/main.css">
@@ -21,11 +33,11 @@
                     <p>Hehehe</p>
                 </div>
             </div>
-            <div>
+            <div style="padding-right: 20px;">
                 <ul class="nav-bar-ul">
-                    <li>Home</li>
-                    <li>Contacts us</li>
-                    <li>Blog</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Blog</a></li>
                 </ul>
             </div>
         </div>
@@ -33,11 +45,15 @@
     <main class="main">
         <div class="first">
             <div class="first-box">
-                <div>
-                    Welcome
+                <div class="welcome-box" style="font-size: 30px; margin-bottom: -35px; ">
+                    <!-- Welcome to Name -->
                 </div>
-                <div>We take care</div>
-                <div>of your trips</div>
+                <div style="font-size: 40px;">
+                    <p class="main-font" style="margin-top: 30px ; font-size: 80px; padding-bottom: -40px; ">We take
+                        care</p>
+                </div>
+                <div class="main-font" style="font-size: 100px ; margin-top: -110px; padding-top: -90px;">of your trips
+                </div>
             </div>
             <div>
                 <p>Recieve update on price drops</p>
@@ -45,17 +61,60 @@
 
 
         </div>
-        <div class=" main-div-two">
-            <div class="search-box-input">
-                <div class="search-box"><input type="text" name="entered-destination" id=""
-                        placeholder="Enter your destination"></div>
-                <div>
-                    <button type="submit">Go</button>
-                </div>
+        <div class="search" style="display: flex; justify-content: center; padding-top: 40px;">
+            <form action="#">
+                <input type="text" placeholder=" Search Destination" name="search">
+                <!-- <button>
+                    <i class="fa fa-search" style="font-size: 18px;">
+                    </i>
+                </button> -->
+            </form>
+        </div>
+        <div class="destinations">
+
+
+
+            <div class="card">
+                <img src="/res/bali.jpeg" alt="Denim Jeans" style="width: 259px; height: 194px;">
+                <h1>Bali</h1>
+                <p class="dest-discription">Bali is a province of Indonesia and the westernmost of the Lesser Sunda
+                    Islands.
+                </p>
+
+            </div>
+            <div class="card">
+                <img src="/res/dubai1.jpeg" alt="Denim Jeans" style="width: 259px; height: 194px;">
+                <h1>Dubai</h1>
+                <p class="dest-discription">Dubai is a emirate in United Arab Emirates known for luxury
+                    shopping and ultramodern architecture. .</p>
+
+            </div>
+            <div class="card">
+                <img src="/res/udaipur.jpeg" alt="Denim Jeans" style="width: 259px; height: 194px;">
+                <h1>Udaipur</h1>
+                <p class="dest-discription">Udaipur, formerly the capital of the Mewar Kingdom, is a city in the western
+                    Indian state of Rajasthan. </p>
+
+            </div>
+            <div class="card">
+                <img src="/res/paris.jpeg" alt="Denim Jeans" style="width: 259px; height: 194px;">
+                <h1>Paris</h1>
+
+                <p class="dest-discription">Paris lives up to its hype: A city with unbelievable food and culture, plus
+                    stunning views everywhere you turn. </p>
+
+            </div>
+            <div class="card">
+                <img src="/res/varanasi.jpeg" alt="Denim Jeans" style="width: 259px; height: 194px;">
+                <h1>varanasi</h1>
+
+                <p class="dest-discription">The north Indian city of Varanasi, or Benares, is regarded as sacred by
+                    Hindus, Buddhists and Jains.
             </div>
         </div>
 
     </main>
+
 </body>
 
 </html>
