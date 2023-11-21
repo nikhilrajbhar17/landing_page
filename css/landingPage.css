@@ -1,13 +1,8 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  background-color: #C69DD5;
-  border-color: black;
 }
 .header {
-  background-color: #94aec7
-  height: 10vh;
-  width: 100vw;
 }
 
 .main {
@@ -25,12 +20,13 @@
   display: block;
   padding: 8px;
   text-decoration: none;
- 
 }
- .nav-bar-ul li  :hover{
+.nav-bar-ul li :hover {
   background-color: yellow;
   color: black;
-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  transform: scale(1.2);
+  font-weight: bold;
 }
 .img-logo {
   border-radius: 50%;

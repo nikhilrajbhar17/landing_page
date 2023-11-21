@@ -124,6 +124,10 @@ body {
   font-family: arial;
   background-color: aliceblue;
 }
+.dest-img:hover {
+  transform: scale(1.2);
+  border-radius: 15px;
+}
 
 .price {
   color: grey;
@@ -147,4 +151,7 @@ body {
 }
 .dest-discription {
   width: 259px;
+}
+.nav-font {
+  font-family: "Inter", sans-serif;
 }
