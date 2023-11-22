@@ -155,3 +155,38 @@ body {
 .nav-font {
   font-family: "Inter", sans-serif;
 }
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 40vh;
+  background-color: #2a3e52;
+  float: bottom;
+  margin-top: 40vh;
+  outline: 3px solid #3b5671;
+  border-radius: 25px 20px 0px 0px;
+}
+.footer-div-next {
+  background-color: #293644;
+}
+#div-foot-one {
+  margin-left: 30px;
+  width: 250px;
+  border-radius: 50px;
+}
+#div-foot-one p {
+  margin-left: 40px;
+}
+#div-foot-one img {
+  margin-left: 40px;
+  margin-top: 80px;
+}
+#div-foot-two {
+  border-radius: 50px;
+  width: 250px;
+}
+#div-foot-three {
+  border-radius: 50px;
+  width: 250px;
+  margin-right: 30px;
+}
