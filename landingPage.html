@@ -3,6 +3,9 @@
 
 <head>
     <!-- 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,8 +86,8 @@
 
 
             <div class="card">
-                <img class="dest-img" src="/res/bali.jpeg" alt="Bali" style="width: 259px; height: 194px;">
-                <h1 class="dest-img">Bali</h1>
+                <img class="dest-img" src="/res/bali.jpeg" alt="Bali" style="width: 259px; height: 194px; ">
+                <h1 class="dest-img"><a href="">Bali</a></h1>
                 <p class="dest-discription">Bali is a province of Indonesia and the westernmost of the Lesser Sunda
                     Islands.
                 </p>
@@ -92,21 +95,21 @@
             </div>
             <div class="card">
                 <img class="dest-img" src="/res/dubai1.jpeg" alt="Dubai" style="width: 259px; height: 194px;">
-                <h1 class="dest-img">Dubai</h1>
+                <h1 class="dest-img"><a href="">Dubai</a></h1>
                 <p class="dest-discription">Dubai is a emirate in United Arab Emirates known for luxury
                     shopping and ultramodern architecture. .</p>
 
             </div>
             <div class="card">
                 <img class="dest-img" src="/res/Udaipur.jpeg" alt="Udaipur" style="width: 259px; height: 194px;">
-                <h1 class="dest-img">Udaipur</h1>
+                <h1 class="dest-img"><a href="">Udaipur</a></h1>
                 <p class="dest-discription">Udaipur, formerly the capital of the Mewar Kingdom, is a city in the western
                     Indian state of Rajasthan. </p>
 
             </div>
             <div class="card">
                 <img class="dest-img" src="/res/Paris.jpeg" alt="Paris" style="width: 259px; height: 194px;">
-                <h1 class="dest-img">Paris</h1>
+                <h1 class="dest-img"><a href="">Paris</a></h1>
 
                 <p class="dest-discription">Paris lives up to its hype: A city with unbelievable food and culture, plus
                     stunning views everywhere you turn. </p>
@@ -114,7 +117,7 @@
             </div>
             <div class="card">
                 <img class="dest-img" src="/res/Varanasi.jpeg" alt="Varanasi" style="width: 259px; height: 194px;">
-                <h1 class="dest-img">Varanasi</h1>
+                <h1 class="dest-img"><a href="">Varanasi</a></h1>
 
                 <p class="dest-discription">The north Indian city of Varanasi, or Benares, is regarded as sacred by
                     Hindus, Buddhists and Jains.
@@ -124,32 +127,32 @@
             <div class="footer-div">
                 <div class="footer-div-next " id="div-foot-one">
                     <img src="" alt="logo">
-                    <p>Copyright © Name, Inc</p>
+                    <p class="copyright-div">Copyright © Name, Inc</p>
                 </div>
                 <div class="footer-div-next two" id="div-foot-two">
-                    <div style="size: 50px;">
+                    <div style="size: 50px;" id="social-icon-text-id" class="social-icon-text">
                         <div style="display: flex; justify-content: start; align-items: center;">
 
                             <div>
-                                <a href=""> <i class=" bi bi-instagram"> </i>
+                                <a href=""> <i style="margin-left:10px; color: #a685ed;" class="bi bi-instagram"></i>
                                 </a>
                             </div>
-                            <div style="margin-left: 30px;"> <a href="">
-                                    <p style="color: beige; margin-left: 30px;">Instagram</p>
+                            <div id="social-text" class="footer-text"> <a href="" class="social-dec">
+                                    <p style="color: white; margin-left: 33px;">Instagram</p>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="social-icon-text">
 
                         <div style="display: flex; justify-content: start; align-items: center;">
 
                             <div>
-                                <a href=""> <i class=" bi bi-instagram"> </i>
+                                <a class="social-dec" href=""> <i style="color: #0077B5;" class="bi bi-linkedin"></i>
                                 </a>
                             </div>
-                            <div style="margin-left: 30px;"> <a href="">
-                                    <p style="color: beige; margin-left: 30px;">Instagram</p>
+                            <div id="social-text"> <a class="social-dec" href="">
+                                    <p class="footer-text" style="color: beige;  margin-left: 30px; ">LinkedIn</p>
                                 </a>
                             </div>
                         </div>
@@ -157,15 +160,15 @@
 
 
                     </div>
-                    <div>
-                        <div style="display: flex; justify-content: start; align-items: center;">
+                    <div class="social-icon-text">
+                        <div style="display: flex; justify-content: start; align-items: center; margin-left: -15px;">
 
                             <div>
-                                <a href=""><i class="bi bi-github"></i>
+                                <a href=""><i style="color: #f0f8ff;" class="bi bi-github"></i>
                                 </a>
                             </div>
-                            <div style="margin-left: 30px;"> <a href="">
-                                    <p style="color: beige; margin-left: 30px;">Github</p>
+                            <div id="social-text"> <a class="social-dec" href="">
+                                    <p class="footer-text" style="color: beige; margin-left: 30px;">Github</p>
                                 </a>
                             </div>
                         </div>
@@ -173,9 +176,17 @@
                     </div>
                 </div>
                 <div class="footer-div-next three" id="div-foot-three">
-                    <div>Legal stuff</div>
-                    <div>Privacy Policy</div>
-                    <div>Security</div>
+                    <div class="div-foot-three-one">
+                        <div class="legal-privacy-security social-dec"><a href="">
+                                <p class="footer-text">Legal stuff</p>
+                            </a></div>
+                        <div class="legal-privacy-security social-dec"><a href="">
+                                <p class="footer-text" style="color: white;">Privacy Policy</p>
+                            </a></div>
+                        <div class="legal-privacy-security social-dec"><a href="">
+                                <p class="footer-text" style="color: #f0f8ff;">Security</p>
+                            </a></div>
+                    </div>
                 </div>
             </div>
         </footer>

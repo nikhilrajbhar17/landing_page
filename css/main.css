@@ -117,12 +117,19 @@ body {
   margin-top: 20vh;
 }
 .card {
+  border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
   font-family: arial;
   background-color: aliceblue;
+}
+.dest-img {
+  border-radius: 20px 20px 0px 0px;
+}
+.dest-img a {
+  text-decoration: none;
 }
 .dest-img:hover {
   transform: scale(1.2);
@@ -198,4 +205,62 @@ body {
 .footer-icon bi-instagram {
   size: 50px;
   margin: 50px;
+}
+.social-icon-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#social-icon-text-id {
+  margin-top: 50px;
+}
+.social-icon-text p {
+  margin-left: -30px;
+  text-decoration: none;
+}
+#social-text {
+  margin-left: -20px;
+}
+#div-foot-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.legal-privacy-security {
+  margin-top: 30px;
+}
+.legal-privacy-security a {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 2px;
+}
+.legal-privacy-securitya: hover {
+  transform: scale(1.2);
+}
+.social-dec {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 2px;
+}
+.social-dec :hover {
+  transform: scale(1.2);
+}
+.div-foot-three-one {
+  margin-top: -29px;
+}
+.footer-text {
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 50px;
+  text-decoration-color: white;
+  text-decoration: #e8ecf0;
+  font-family: "Noto Serif", serif;
+}
+.copyright-div {
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 50px;
+  text-decoration-color: white;
+  text-decoration: #e8ecf0;
+  font-family: "Noto Serif", serif;
 }
