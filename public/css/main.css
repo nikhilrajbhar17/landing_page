@@ -282,6 +282,7 @@ body {
 /* 2 */
 .img-dest-2:hover {
   transform: translateX(-10rem) scale(1.2);
+  z-index: 2;
 }
 .img-dest {
   width: 150vh;
@@ -294,9 +295,10 @@ body {
 }
 /* 2 */
 .img-dest-2 {
-  margin-right: 500px;
+  position: absolute;
+  margin-left: 300px;
   width: 150vh;
-  background-image: url("/res/bora_bora.jpg");
+  background-image: url("/res/pyramid.jpg");
   background-size: cover;
   height: 65vh;
   /* test code */
@@ -316,11 +318,19 @@ body {
   height: 45vh;
   width: 45vh;
   border-radius: 25px;
-  margin-right: -20px;
+  position: absolute;
+  margin-left: 100px;
 }
 
 .first-dest-2 {
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+.first-dest-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 80vh;
+  margin-left: 100px;
 }
