@@ -1,0 +1,28 @@
+.main-content {
+  background-color: #121212;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.content-headings {
+  color: white;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.content-paragraph {
+  color: white;
+}
+.main-content-div {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: -35px;
+}
+.main-content-div p {
+  font-family: "Open Sans", sans-serif;
+  font-size: large;
+}
+.main-content-heading-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
