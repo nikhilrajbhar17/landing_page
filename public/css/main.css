@@ -138,7 +138,7 @@ body {
 }
 .more-destinations {
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
   background-color: #121212;
 }
 
@@ -272,15 +272,33 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  margin-left: -200px;
 }
+/* 2 */
+
 .img-dest:hover {
-  transform: translateX(10rem) scale(1.6);
+  transform: translateX(10rem) scale(1.2);
+}
+/* 2 */
+.img-dest-2:hover {
+  transform: translateX(-10rem) scale(1.2);
 }
 .img-dest {
-  width: 90vh;
+  width: 150vh;
   background-image: url("/res/bora_bora.jpg");
   background-size: cover;
-  height: 50vh;
+  height: 65vh;
+  /* test code */
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out,
+    height 0.3s ease-in-out;
+}
+/* 2 */
+.img-dest-2 {
+  margin-right: 500px;
+  width: 150vh;
+  background-image: url("/res/bora_bora.jpg");
+  background-size: cover;
+  height: 65vh;
   /* test code */
   transition: transform 0.3s ease-in-out, width 0.3s ease-in-out,
     height 0.3s ease-in-out;
@@ -291,4 +309,18 @@ body {
   width: 45vh;
   border-radius: 25px;
   margin-left: -130px;
+}
+/* 2 */
+.card-dest-2 {
+  background-color: wheat;
+  height: 45vh;
+  width: 45vh;
+  border-radius: 25px;
+  margin-right: -20px;
+}
+
+.first-dest-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
